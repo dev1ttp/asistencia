@@ -7,6 +7,12 @@ body {
     color: #8B8B8B;
 }
 
+input,
+button,
+a :focus {
+    outline: none;
+}
+
 .login-bck {
     background-image: url(./blur.jpg);
     background-position: center;
@@ -154,9 +160,32 @@ footer {
     color: #F0B312;
 }
 
-.fa-sign-out-alt {
+.fa-sign-out-alt,
+.fa-chevron {
     font-size: 2rem;
     color: grey;
+}
+
+.input-pwd {
+    width: 100%;
+    height: 50px;
+    background-color: #EFEEEE;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    margin-bottom: 15px;
+    color: darkgrey;
+}
+
+.btn-pwd {
+    background-color: #F0B312;
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
 }
 
 
