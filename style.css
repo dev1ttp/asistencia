@@ -4,6 +4,7 @@ body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    color: #8B8B8B;
 }
 
 .login-bck {
@@ -147,6 +148,10 @@ footer {
 .btn-action {
     -ms-flex-align: center;
     align-items: center;
+}
+
+.yellow {
+    color: #F0B312;
 }
 
 .fa-sign-out-alt {
