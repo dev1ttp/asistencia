@@ -135,7 +135,7 @@ a:visited {
 
 .detail {
     font-size: .8rem;
-    line-height: 50%!important;
+    line-height: 100%!important;
 }
 
 .line-height {
@@ -186,6 +186,29 @@ footer {
     height: 50px;
     border-radius: 25px;
     border: none;
+}
+
+.link-data {
+    width: 100%;
+    height: 50px;
+    background-color: #EFEEEE;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    margin-bottom: 15px;
+    color: darkgrey;
+}
+
+.box-data {
+    margin: 5px;
+    padding: 2px;
+    width: 70%;
+    border-radius: 25px;
+    height: 40px;
+    background-color: white;
+    color: #F0B312;
+    font-size: 1.5rem;
 }
 
 
